@@ -1,0 +1,20 @@
+{
+  "name": "my-layer0-site",
+  "devDependencies": {
+    "@layer0/cli": "^3.16.11",
+    "@layer0/core": "^3.16.11",
+    "@layer0/devtools": "^3.16.11",
+    "@layer0/prefetch": "^3.16.11",
+    "@layer0/starter": "^3.16.11",
+    "@types/node": "^13.13.2",
+    "prettier": "^2.0.5",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "start": "layer0 dev",
+    "build": "layer0 build",
+    "prod": "layer0 run --production",
+    "deploy": "npm run build && layer0 deploy --skip-build"
+  },
+  "dependencies": {}
+}
